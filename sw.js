@@ -1,4 +1,4 @@
-const NAME='gospel-study-v2-visual-20261019';
-self.addEventListener('install',event=>{event.waitUntil(caches.open(NAME).then(cache=>cache.addAll(['./','index.html','style.css','redesign.css','app.js','data.js','images.js','icon.svg','manifest.webmanifest'])));self.skipWaiting()});
+const NAME='gospel-study-v5-anonpdf-20261019';
+self.addEventListener('install',event=>{event.waitUntil(caches.open(NAME).then(cache=>cache.addAll(['./','index.html','style.css','redesign.css','app.js','data.js','images.js','icon.svg','manifest.webmanifest','공관복음_시험원문_개인정보제외.pdf'])));self.skipWaiting()});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(url.origin!==self.location.origin)return;event.respondWith(fetch(event.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(NAME).then(cache=>cache.put(event.request,copy))}return response}).catch(()=>caches.match(event.request)))});
