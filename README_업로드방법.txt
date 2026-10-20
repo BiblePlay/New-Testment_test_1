@@ -1,11 +1,13 @@
-공관복음 시험 암기 앱 v6 — GitHub Pages 업로드
+공관복음 학습 앱 v7 - 이미지/PDF 링크 수정본
 
-1. 이 ZIP을 압축 해제하세요.
-2. 기존 GitHub 저장소의 Code → Add file → Upload files에서 압축 해제 폴더 안의 모든 파일과 assets 폴더의 파일을 업로드하세요.
-3. 기존 파일은 같은 이름으로 교체하고 Commit changes를 누르세요.
-4. GitHub Pages가 main / (root)로 설정되어 있다면 추가 설정은 필요하지 않습니다.
-5. 아이패드에서 그림 터치 → 100%, 150%, 200%, 300% → 손가락으로 스크롤. '원본 새 창'은 브라우저 자체 확대도 가능합니다.
+1. 이 ZIP을 압축 해제합니다.
+2. GitHub 저장소의 Code 탭에서 Add file > Upload files로 들어갑니다.
+3. 압축을 푼 폴더 내부의 파일과 assets 폴더 전체를 GitHub 저장소의 최상위 경로에 업로드합니다.
+   중요한 점: assets 폴더 안에 bonus_extra_matthew.webp, bonus_extra_mark.webp,
+   bonus_extra_luke.webp, bonus_extra_comparison.webp 파일이 있어야 합니다.
+4. Commit changes를 누른 후 GitHub Pages 배포 완료를 기다립니다.
+5. GitHub 저장소 Code 탭에서 gospel_exam_source.pdf 파일이 최상위에 있는지 확인합니다.
+6. GitHub Pages에서 PDF 버튼을 눌러 확인하고 보너스 그림을 확인합니다.
 
-중요: 제출용 원문 PDF는 개인정보가 빠진 버전만 포함했습니다. 예전 개인정보 포함 PDF가 저장소에 남아있지 않은지 확인하세요.
-기존 PNG 원본 1055 x 1491 픽셀이므로 그 이상 확대 시 선명도가 완전히 유지되지는 않습니다. 새 보너스 4장은 무손실 WebP로 수록했습니다.
-추가 자료 공개·재배포 권한은 자료 작성자에게 확인하세요.
+원본 PDF에는 사용자가 이름/학번을 삭제해 업로드한 자료만 포함했습니다.
+기존 저장소에 옛 개인정보 포함 PDF를 올린 적 있다면 따로 삭제해야 합니다.
